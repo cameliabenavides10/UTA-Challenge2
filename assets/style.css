@@ -85,7 +85,6 @@ section article {
 .work1 {
         height: 55%;
         position: absolute;
-        
         display: block;
         width: 65%;
         top: 33%;
@@ -113,15 +112,48 @@ section article {
 .work3 {
     height: 20%;
     width: 32%;
-    position: absolute;
     display: block;
+    position: absolute;
     top: 90%;
     left: 54%;
     object-fit: none;
     border: 6px solid pink;
 }
 
+.hoover3 img:hover
+{
+    background-color: rgba(255,255,255,.5);
+    position:absolute;
+    height: 20%;
+    width: 32%;
+    top: 90%;
+    left: 54%;
+    opacity: 40%;
+    border: 0;
+    z-index: 2;
+   
+}
 
-a:hover {
-    background-color: black;
+.hoover2 img:hover{
+    background-color: rgba(255,255,255,.5);
+    position:absolute;
+    height: 20%;
+    width: 32%;
+    top: 90%;
+    left: 21%;
+    opacity: 40%;
+    border: 0;
+    z-index: 2;
+}
+
+.hoover1 img:hover{
+ background-color: rgba(255,255,255,.5);
+    position:absolute;
+    height: 55%;
+    width: 65%;
+    top: 33%;
+        left: 21%;
+    opacity: 40%;
+    border: 0;
+    z-index: 2;
 }
