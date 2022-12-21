@@ -233,14 +233,18 @@ article p {
 
     }
 
-    
+    .flextherow {
+        display: flex;
+        flex-direction: column;
+    }
 
     .work {
         border: none;
         color: rgb(104, 82, 98);
-       left: 300px;
+        order: 2;
+        flex-wrap: wrap;
         text-align: center;
-        padding: 175px 0;
+        padding: 165px 0;
     }
 
     .work1 {
@@ -284,8 +288,7 @@ article p {
     }
 
     #work {
-        display: absolute;
-        right:100px;
+        margin: 0 auto;
 
 
     }
@@ -327,6 +330,26 @@ article p {
         bottom: 32%;
 
     }
+#forflexbox {
+display: flex;
+flex-direction: column;
+flex-flow: column wrap;
+}
+
+#flexbox1 {
+   
+   
+   
+   
+}
+
+#flexbox2 {
+    order: 5;
 
 }
 
+#flexbox3 {
+order:3;
+
+}
+}
