@@ -5,118 +5,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Sintony:400,700&subset=latin-ext' rel='stylesheet'
+        type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link href="./index.js" />
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Vollkorn SC">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
     <header>
+
         <h1>Camelia Benavides</h1>
 
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contactme11">Contact</a></li>
-                <li><a href="#aboutme">About</a></li>
-            </ul>
+
+
+
+
+        <nav class="navbar navbar-expand-lg" id="navbar">
+
+            <div class=" navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactme">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
     </header>
-
     <section>
-        <article>
 
- <div id="forflexbox">           
-            <div class="flextherow">
-                <div id="flexbox1"> 
-                <div class="aboutme" id="aboutme">
-                    <div class="section1">
-                        <h2>About me</h2>
+
+        <div class="d-flex" id="aboutme">
+            <div class="p-3 side-title">About Me</div>
+            <div class="p-2 about-me">I am a 31 year old nature lover. I love plants and being outside. I have two dogs, a mini
+                dachshun and rat terrier chihuahua. The book begins with the narrator and Sally being bored in
+                their house during a storm. The Cat comes into the scene, followed by his umbrella. He suggests
+                that he entertain them with tricks, but the fish tells him not to do anything because it will
+                cause trouble. The Cat then takes away the fish from its bowl and starts balancing it on top of
+                his umbrella. They keep playing this game until it escalates to an elaborate performance where
+                they balance themselves on various objects around their house while teetering atop a ball.
+                Eventually, everything collapses and they start arguing again about who’s fault it is for
+                causing all this mess.</div>
+        </div>
+
+
+
+        <div class="d-flex p-2 " id="work">
+            
+            <div class="p-3 side-title">Work</div>
+
+
+
+            
+            <div class="p-2  flex-wrap " >
+                <div class="d-flex flex-row justify-content-evenly flex-wrap" >
+
+                    <div class="card mb-3 " id="card-width1" >
+                        <img class="card-img-top" id=""
+                            src="https://images.unsplash.com/photo-1502209524164-acea936639a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJldHR5JTIwb2NlYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                            alt="Card image cap">
+
+                        <div class="card-body bottom ">
+                            <h5 class="card-title">Diver</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
                     </div>
 
-                    <p> I am a 31 year old nature lover. I love plants and being outside. I have two dogs, a mini
-                        dachshun and rat terrier chihuahua. The book begins with the narrator and Sally being bored in
-                        their house during a storm. The Cat comes into the scene, followed by his umbrella. He suggests
-                        that he entertain them with tricks, but the fish tells him not to do anything because it will
-                        cause trouble. The Cat then takes away the fish from its bowl and starts balancing it on top of
-                        his umbrella. They keep playing this game until it escalates to an elaborate performance where
-                        they balance themselves on various objects around their house while teetering atop a ball.
-                        Eventually, everything collapses and they start arguing again about who’s fault it is for
-                        causing all this mess.</p>
+                    <div class="card mb-3" id="card-width2">
+                        <img class="card-img-top" id=""
+                            src="https://images.unsplash.com/photo-1584208320070-54631de3a8c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHByZXR0eSUyMG9jZWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="Card image cap">
+                        <div class="card-body bottom">
+                            <h5 class="card-title">Sunset Beach</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 image-3">
+                    <img class="card-img-top" 
+                        src="https://images.unsplash.com/photo-1441260038675-7329ab4cc264?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJldHR5JTIwb2NlYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Jelly Fish</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
                 </div>
             </div>
-<div id="flexbox2"> 
-                <div id="work">
-                    <div class="work">
-                        <h2>Work</h2>
-                    </div>
-                    <div class="wrappics">
-                        <div class="hoover1">
-                            <div class="container">
-                                <a href="https://cameliabenavides10.github.io/pintplanner/">
-                                    <img class="work1" src="./assets/pics/pintplanner8.png" alt="link to project1 people brainstorming around table">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="hoover2">
-                            <div class="container">
-                                <a href="https://cameliabenavides10.github.io/UTA-Challenge1/">
-                                    <img class="work2" src="./assets/pics/work1.png" alt="link to second project screenshot of project.">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="hoover3">
-                            <div class="container">
-                                <a href="https://google.com">
-                                    <img class="work3" src="./assets/pics/work2.png" alt="link to third project screenshot of project.">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+        </div>
 
+
+
+        <div class="d-flex ">
+            <div class="p-3 side-title" id="contactme">Contact Me</div>
+            <div class="p-2 contact-body">
+                <p>
+                <ul class="nav justify-content-center">
+                     <li class="nav-item"><a class="nav-link active" href="#">cameliabenavides@gmail.com</a></li>
+                     <li class="nav-item"><a class="nav-link active" href="https://www.linkedin.com/in/camelia-benavides-27a373160/">LinkedIn
+                       
+                     </a></li>
+                     <li class="nav-item"><a class="nav-link active" href="https://github.com/cameliabenavides10">GitHub</a></li>
+                     <li class="nav-item"><a class="nav-link active" href="#">555-5555</a></li>
+                </ul>
+
+                </p>
             </div>
-
-            </div>
-
-            <div id="flexbox3">
-            <div class="contactme" id="contactme11">
-                <h3>
-                    Contact me
-                </h3>
-                <div class="contactlinks">
-                    <p>
-                    <ul>
-                        <li><a href="#">cameliabenavides@gmail.com</a></li>
-                        <li><a href="https://www.linkedin.com/in/camelia-benavides-27a373160/">LinkedIn</a></li>
-                        <li><a href="https://github.com/cameliabenavides10">GitHub</a></li>
-                        <li><a href="#">555-5555</a></li>
-                    </ul>
-
-                    </p>
-                </div>
-
-</div>
-</div>
-
-
-        
-</div>
-
-
-
-
-
-        </article>
-
-
-
-
+        </div>
     </section>
-
-
 </body>
+<script src="https://code.jquery.com/jquery-3.6.3.slim.js" integrity="sha256-DKU1CmJ8kBuEwumaLuh9Tl/6ZB6jzGOBV/5YpNE2BWc=" crossorigin="anonymous"></script>
 
 </html>
